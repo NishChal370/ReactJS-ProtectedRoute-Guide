@@ -16,6 +16,9 @@ function Profile() {
             <div>
                   <h1>ProfilePage</h1>
                   <h1>Welcome {auth.user}</h1>
+                  <h2>Click logout button.</h2>
+                  <h5>You will be directed to login page.</h5>
+                  
                   <button onClick={handleLogout}>Logout</button>
             </div>
       )

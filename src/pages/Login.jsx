@@ -20,12 +20,17 @@ function Login() {
       }
 
       return (
-            <form>
-                  <label> Username: </label>
-                  <input type='text' value={user} onChange={(e)=> setUser(e.target.value)} required/>
-                 
-                  <button type="submit" onClick={handleLogin}>Login</button>
-            </form>
+            <>
+                  <h1>Fill the form and click login button</h1>
+                  <h3>You will be directed to profile page.</h3>
+                  
+                  <form>
+                        <label> Username: </label>
+                        <input type='text' value={user} onChange={(e)=> setUser(e.target.value)} required/>
+                  
+                        <button type="submit" onClick={handleLogin}>Login</button>
+                  </form>
+            </>
       )
 }
 

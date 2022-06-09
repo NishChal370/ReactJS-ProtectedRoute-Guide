@@ -1,12 +1,10 @@
 import './App.css';
-import { Login, NavBar, Profile } from './components';
-import {
-      Routes,
-      Route,
-} from "react-router-dom";
-
+import { Routes, Route } from "react-router-dom";
+import { NavBar } from './components';
+import { Login, Profile } from './pages';
 import RequiredAuth from './utils/RequiredAuth';
 import { AuthProvider } from './utils/AuthProvider';
+
 
 function App() {
       return (
